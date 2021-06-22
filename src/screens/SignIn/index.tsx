@@ -13,7 +13,7 @@ export function SignIn(){
 return(
 
   <View style={styles.container}>
-    <StatusBar barStyle="light-content" backgroundColor="transparent" translucent/>
+    
     <Image 
       source={IllustrationImg} 
       style={styles.image}
@@ -36,6 +36,8 @@ return(
         activeOpacity={0.7}
       />
     </View>
+
+    
   </View>
 )
 }
